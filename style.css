@@ -1,0 +1,88 @@
+html{
+    width: 100%;
+}
+body {
+    margin: 0;
+    padding: 0;
+}
+.logo{
+   display: block;
+   margin: auto;
+   width: 20%;
+   padding: 150px 40% 5px 40%;
+}
+.search{
+   padding-top: 15px;
+   padding-bottom: 10px;
+   margin-left: 32%;
+   margin-right: 32%;
+   margin-top: 10px;
+   width: 36%;
+   background-image: url('searchicon.png');
+   background-position: 12px 10px; 
+   background-size: 20px;
+   background-repeat: no-repeat;
+   border-radius: 50px;
+   border-style: solid;
+    
+}
+
+
+
+.button {
+    border: thick;
+    font-size: 20px;
+}
+.nav {
+display: flex;
+flex-wrap: nowrap;
+padding-top: 20px;
+float: right;
+background-color: rgb(255, 255, 255);
+color: black;
+
+}
+.nav a{
+    text-decoration: none;
+    color: black;
+    text-align: center;
+    padding: 5px;
+    font-size: 0.8em;
+}
+.nav a:hover {
+text-decoration: underline;
+}
+
+.hindi {
+    margin-top: 10px;
+    font-size: 0.8em;
+}
+.footer {
+    font-family: sans-serif;
+    display: flexbox;
+    width: 100%;
+    position: absolute;
+    bottom: 0px;
+    color: black;
+    overflow: hidden;
+    margin: 5px 0px;
+      
+}
+.footer-left{
+    float: left;
+
+}
+.footer-right{
+    
+    float: right;
+}
+.footer a{
+    text-decoration: none;
+    color: rgb(80, 78, 78);
+    font-size: 14px;
+    padding: 10px 10px; 
+    
+}
+.footer a:hover{
+    text-decoration: underline;
+}
